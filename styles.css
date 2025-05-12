@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+
+  /* Signup Page Starts*/
+
+#signUpPage {
+  background-image: url(images/background.png);
+  height: 140vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.noAccount {
+  float: right;
+}
+
+.noAccount a {
+  color: #96DCE0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.noAccount a:hover {
+  color: #00476F;
+  text-decoration: underline;
+}
+
+/* Signup Page Ends*/
+
+/* Login Page  */
+#loginPage {
+  background-image: url(images/background.png);
+  height: 100vh;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.avatar {
+  width: 40%;
+}
+
+.loginContainer {
+  width: 25%;
+  /* border: 2px solid #eee; */
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+
+}
+
+input[type=text],
+[type=email],
+input[type=password],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.btnLogin {
+  background-color: #96DCE0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  border: 1px solid #96DCE0;
+}
+
+.btnLogin:hover {
+  background-color: #00476F;
+  color: white;
+  transition-delay: 0.1s;
+}
